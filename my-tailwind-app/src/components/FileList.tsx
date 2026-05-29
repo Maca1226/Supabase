@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../supabaseClient'
-import  Uploader  from '../Uploader'
+import  Uploader  from '../components/Uploader';
 
 const FileList = ({ userId, bucketName}) => {
   const [files, setFiles] = useState([]);

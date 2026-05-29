@@ -1,23 +1,15 @@
 
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  // 1. Comando de Construcción de Vite
-  "preview": "vite preview", 
-  // 2. COMANDO START PARA RENDER
-  "start": "serve -s dist"
-},
-
 {
   "name": "my-tailwind-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "vite ",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.2",
